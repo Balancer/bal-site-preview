@@ -1,0 +1,21 @@
+{
+    "name": "balancer/b2f-site-preview",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+    "require": {
+		"balancer/b2f-routers": "*"
+    },
+
+    "autoload": {
+		"classmap": ["classes/"]
+    }
+}
