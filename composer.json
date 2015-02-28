@@ -12,7 +12,7 @@
 	"minimum-stability": "dev",
 
     "require": {
-		"balancer/b2f-router-fastrouter": "*"
+		"balancer/b2f-router-fastroute": "*"
     },
 
     "autoload": {
