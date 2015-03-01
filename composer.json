@@ -14,7 +14,7 @@
 	"prefer-stable": true,
 	"minimum-stability": "dev",
 
-    "require": {
+    "require0": {
 		"balancer/b2-framework": "*",
 		"balancer/b2-composer-installer": "*",
 		"balancer/b2-composer-plugin": "*",
