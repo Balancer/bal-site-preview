@@ -16,6 +16,7 @@
 
     "require": {
 		"balancer/b2-framework": "*",
+		"balancer/b2-composer-installer": "*",
 		"balancer/b2-composer-plugin": "*",
 		"balancer/b2f-router-fastroute": "*"
     },
