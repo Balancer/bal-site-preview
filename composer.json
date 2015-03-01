@@ -1,6 +1,9 @@
 {
     "name": "balancer/b2f-site-preview",
     "license": "GPL-3.0",
+
+    "type": "bors-component",
+
     "authors": [
         {
             "name": "Balancer",
@@ -13,6 +16,7 @@
 
     "require": {
 		"balancer/b2-framework": "*",
+		"balancer/b2-composer-plugin": "*",
 		"balancer/b2f-router-fastroute": "*"
     },
 
