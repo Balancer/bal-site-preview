@@ -16,7 +16,6 @@
 
     "require0": {
 		"balancer/b2-framework": "*",
-		"balancer/b2-composer-installer": "*",
 		"balancer/b2-composer-plugin": "*",
 		"balancer/b2f-router-fastroute": "*"
     },
@@ -24,13 +23,6 @@
     "autoload": {
 		"classmap": ["classes/"]
     },
-
-	"scripts": {
-		"post-update-cmd": "b2f_composer::update",
-		"post-install-cmd": "b2f_composer::install",
-		"post-autoload-dump": "b2f_composer::post_autoload_dump",
-		"post-package-update": "b2f_composer::post_package_update"
-	},
 
 	"extra": {
 		"bors-calls": {
