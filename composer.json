@@ -14,7 +14,7 @@
 	"prefer-stable": true,
 	"minimum-stability": "dev",
 
-    "require0": {
+    "require": {
 		"balancer/b2-framework": "*",
 		"balancer/b2-composer-plugin": "*",
 		"balancer/b2f-router-fastroute": "*"
