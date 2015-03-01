@@ -20,12 +20,14 @@
 		"classmap": ["classes/"]
     },
 
-	"scripts": {
+	"scripts-disabled": {
 		"post-update-cmd": "b2f_composer::update",
-		"post-install-cmd": "b2f_composer::install"
+		"post-install-cmd": "b2f_composer::install",
+		"post-autoload-dump": "b2f_composer::post_autoload_dump",
+		"post-package-update": "b2f_composer::post_package_update"
 	},
 
-	"extra": {
+	"extra-disabled": {
 		"routes": {
 			"fastroute": [
 				"GET /_b2f/sp/{urlencoded} b2f_site_preview::make_link",
