@@ -20,16 +20,16 @@
 		"classmap": ["classes/"]
     },
 
-	"scripts-disabled": {
+	"scripts": {
 		"post-update-cmd": "b2f_composer::update",
 		"post-install-cmd": "b2f_composer::install",
 		"post-autoload-dump": "b2f_composer::post_autoload_dump",
 		"post-package-update": "b2f_composer::post_package_update"
 	},
 
-	"extra-disabled": {
-		"routes": {
-			"fastroute": [
+	"extra": {
+		"bors-calls": {
+			"b2f_fastroute::register": [
 				"GET /_b2f/sp/{urlencoded} b2f_site_preview::make_link",
 				"GET /_cg/b2fsp/[0-9]{4}-[0-9]{2}/{hash}\\.png b2f_site_preview"
 			]
