@@ -15,10 +15,13 @@
 	"minimum-stability": "dev",
 
     "require": {
-		"balancer/b2-framework": "*",
 		"balancer/b2-composer-plugin": "*",
 		"balancer/b2f-router-fastroute": "*"
     },
+
+    "require-disabled": {
+		"balancer/b2-framework": "*"
+	},
 
     "autoload": {
 		"classmap": ["classes/"]
